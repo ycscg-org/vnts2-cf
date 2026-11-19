@@ -39,7 +39,7 @@ PEER_SERVERS = ""
 SERVER_TOKEN = ""
 
 # 维护周期，单位秒：清理租约、刷新互联客户端列表、向本地客户端发送网关 Ping。
-MAINTENANCE_INTERVAL = "15"
+MAINTENANCE_INTERVAL = "20"
 
 # 禁止服务端中转客户端数据。启用后仍允许注册、客户端列表、Ping/Pong、打洞握手；
 # TURN/QUIC/广播类服务端中转会被丢弃，客户端只能依赖 P2P，P2P 不通则业务流量不通。

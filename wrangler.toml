@@ -44,7 +44,7 @@ MAINTENANCE_INTERVAL = "20"
 # 禁止服务端中转客户端数据。启用后仍允许注册、客户端列表、Ping/Pong、打洞握手；
 # TURN/QUIC/广播类服务端中转会被丢弃，客户端只能依赖 P2P，P2P 不通则业务流量不通。
 # 只有 true/1/yes/on 会禁止中转；其他值或留空默认启用中转。
-DISABLE_RELAY = "0"
+DISABLE_RELAY = "1"
 
 # 日志级别：info/debug/off。
 LOG_LEVEL = "off"
